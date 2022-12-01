@@ -17,5 +17,5 @@
  * with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-int helloworld (void);
+int hello_world (void);
 

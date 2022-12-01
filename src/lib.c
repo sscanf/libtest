@@ -19,7 +19,7 @@
 
 #include <stdio.h>
 
-int helloworld(void)
+int hello_world(void)
 {
 	printf("Hello world\n");
 	return (0);
