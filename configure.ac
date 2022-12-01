@@ -1,10 +1,11 @@
-SUBDIRS = src
-AC_INIT([helloworld], [0.1], [ocasamitjana@icloud.com])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
-AC_PROG_CC
-AC_CONFIG_FILES([Makefile
-		 src/Makefile
-])
-AC_OUTPUT
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+AC_INIT([libtest], [1.0], [ocasamitjana@icloud.com])
+AM_INIT_AUTOMAKE([foreign no-dist-gz dist-xz])
+LT_INIT
+
+AC_PROC_CC
+AC_OUTPUT([Makefile])
 
 
