@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "libtest.h"
 
-void receive_byte() {
+void hello_world() {
    printf ("Hello, receive_byte\n");
 }
